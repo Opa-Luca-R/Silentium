@@ -1,0 +1,80 @@
+/* Estilo geral */
+body {
+    font-family: Lora, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+    color: #900;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body h2{
+    color: #dd0;
+}
+
+header {
+    background-color: #202020;
+    color: #dddd00;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Botão secreto no canto inferior esquerdo - VISÍVEL APENAS PARA TESTES */
+#secretBtn {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 10px; /* Aumentado para visualização */
+    height: 50px; /* Aumentado para visualização */
+    background-color: transparent; /* Cor temporária visível */
+    border: none;
+    cursor: pointer;
+}
+
+#secretBtn:hover {
+    background-color: #7f7f7f; /* Alteração de cor ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.textoescuro{
+    color: #333;
+}
+.textomaisescuro{
+    color: #181818;
+}
